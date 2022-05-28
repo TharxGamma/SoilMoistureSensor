@@ -29,7 +29,7 @@ void loop() {
 
 void Display(int S)
 {
-  LCD.setCursor(0, 0); // Set the cursor on the first column and first row.
+  LCD.setCursor(0, 0); // Set the cursor on the first column and first row
   if(S == 1)
   {
     LCD.print("Soil is dry");
